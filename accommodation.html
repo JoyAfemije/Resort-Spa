@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodations - Serenity Haven Resort & Spa</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>Serenity Haven</h1>
+          <span>Resort & Spa</span>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="accommodation.html" class="active">Accommodations</a>
+          </li>
+          <li><a href="spa.html">Spa & Wellness</a></li>
+          <li><a href="dinning.html">Dining</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="btn-book">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section
+      class="page-header"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1920&q=80&quot;);
+      "
+    >
+      <div class="page-header-overlay"></div>
+      <div class="page-header-content">
+        <h1>Luxury Accommodations</h1>
+        <p>Discover Your Perfect Sanctuary</p>
+      </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="rooms-intro">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Where Comfort Meets Elegance</span>
+          <h2 class="section-title">Exquisite Rooms & Suites</h2>
+          <div class="section-divider"></div>
+          <p
+            style="
+              max-width: 800px;
+              margin: 2rem auto;
+              color: var(--color-text-light);
+              line-height: 1.8;
+            "
+          >
+            Each of our meticulously designed accommodations offers a private
+            haven of tranquility. From sweeping ocean views to intimate garden
+            settings, every room is appointed with the finest amenities and
+            thoughtful touches to ensure an unforgettable stay.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms Grid -->
+    <section class="rooms-section">
+      <div class="container">
+        <div class="rooms-grid">
+          <!-- Deluxe Ocean View Room -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80"
+                alt="Deluxe Ocean View"
+              />
+              <div class="room-badge">Popular</div>
+            </div>
+            <div class="room-content">
+              <h3>Deluxe Ocean View Room</h3>
+              <p class="room-size">450 sq ft • King Bed • Ocean View</p>
+              <p class="room-description">
+                Wake up to breathtaking sunrise views over the azure ocean. This
+                elegantly appointed room features a private balcony, luxurious
+                marble bathroom, and modern amenities.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Private Balcony</li>
+                <li>✓ Premium Bedding</li>
+                <li>✓ Marble Bathroom</li>
+                <li>✓ Smart TV</li>
+                <li>✓ Mini Bar</li>
+                <li>✓ Nespresso Machine</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$350</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Garden Suite -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80"
+                alt="Garden Suite"
+              />
+            </div>
+            <div class="room-content">
+              <h3>Garden Suite</h3>
+              <p class="room-size">550 sq ft • King Bed • Garden View</p>
+              <p class="room-description">
+                Immerse yourself in tropical tranquility with lush garden views
+                from your private terrace. This spacious suite offers a separate
+                living area and spa-inspired bathroom.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Private Terrace</li>
+                <li>✓ Separate Living Area</li>
+                <li>✓ Rain Shower</li>
+                <li>✓ Work Desk</li>
+                <li>✓ Soaking Tub</li>
+                <li>✓ Complimentary WiFi</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$425</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Presidential Suite -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80"
+                alt="Presidential Suite"
+              />
+              <div class="room-badge" style="background: var(--color-primary)">
+                Luxury
+              </div>
+            </div>
+            <div class="room-content">
+              <h3>Presidential Suite</h3>
+              <p class="room-size">1200 sq ft • King Bed • Panoramic Views</p>
+              <p class="room-description">
+                The epitome of luxury living with panoramic ocean views,
+                separate bedroom and living areas, private plunge pool, and
+                dedicated butler service.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Private Plunge Pool</li>
+                <li>✓ Butler Service</li>
+                <li>✓ Master Bathroom</li>
+                <li>✓ Full Kitchen</li>
+                <li>✓ Dining Area</li>
+                <li>✓ Premium Minibar</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$1,250</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Beach Villa -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80"
+                alt="Beach Villa"
+              />
+              <div class="room-badge" style="background: var(--color-primary)">
+                Exclusive
+              </div>
+            </div>
+            <div class="room-content">
+              <h3>Beachfront Villa</h3>
+              <p class="room-size">
+                1800 sq ft • 2 Bedrooms • Direct Beach Access
+              </p>
+              <p class="room-description">
+                Ultimate privacy and luxury with direct beach access. Features
+                two bedrooms, private infinity pool, outdoor dining pavilion,
+                and personal concierge.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Private Infinity Pool</li>
+                <li>✓ Beach Access</li>
+                <li>✓ Outdoor Pavilion</li>
+                <li>✓ Full Kitchen</li>
+                <li>✓ Personal Concierge</li>
+                <li>✓ Master Suite</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$2,100</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Junior Suite -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80"
+                alt="Junior Suite"
+              />
+            </div>
+            <div class="room-content">
+              <h3>Junior Suite</h3>
+              <p class="room-size">600 sq ft • King Bed • Partial Ocean View</p>
+              <p class="room-description">
+                Perfect blend of comfort and luxury with partial ocean views,
+                spacious layout, sitting area, and premium amenities for a
+                relaxing getaway.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Sitting Area</li>
+                <li>✓ Walk-in Shower</li>
+                <li>✓ Premium Toiletries</li>
+                <li>✓ Coffee Maker</li>
+                <li>✓ Room Service</li>
+                <li>✓ Safe Box</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$475</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Family Suite -->
+          <div class="room-card fade-in-on-scroll">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80"
+                alt="Family Suite"
+              />
+            </div>
+            <div class="room-content">
+              <h3>Family Suite</h3>
+              <p class="room-size">900 sq ft • 2 Bedrooms • Garden View</p>
+              <p class="room-description">
+                Spacious two-bedroom suite perfect for families, featuring
+                connecting rooms, children's amenities, and a generous living
+                space for quality time together.
+              </p>
+              <ul class="room-amenities">
+                <li>✓ Two Bedrooms</li>
+                <li>✓ Kids' Amenities</li>
+                <li>✓ Living Room</li>
+                <li>✓ Two Bathrooms</li>
+                <li>✓ Kitchenette</li>
+                <li>✓ Board Games</li>
+              </ul>
+              <div class="room-footer">
+                <div class="room-price">
+                  <span class="price-from">From</span>
+                  <span class="price-amount">$650</span>
+                  <span class="price-night">/night</span>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="all-amenities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Premium Features</span>
+          <h2 class="section-title">Included Amenities</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="amenities-grid">
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">🛏️</span>
+            <h4>Luxury Bedding</h4>
+            <p>Egyptian cotton linens and premium mattresses</p>
+          </div>
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">🍾</span>
+            <h4>Welcome Amenities</h4>
+            <p>Complimentary champagne and fresh fruit</p>
+          </div>
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">📺</span>
+            <h4>Entertainment</h4>
+            <p>Smart TV with premium channels</p>
+          </div>
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">☕</span>
+            <h4>In-Room Coffee</h4>
+            <p>Nespresso machine with premium pods</p>
+          </div>
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">🌡️</span>
+            <h4>Climate Control</h4>
+            <p>Individual temperature control</p>
+          </div>
+          <div class="amenity-item fade-in-on-scroll">
+            <span class="amenity-icon">🔒</span>
+            <h4>Security</h4>
+            <p>Electronic safe and privacy system</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Book Your Dream Stay?</h2>
+        <p>Experience luxury and comfort in our exquisite accommodations</p>
+        <a href="contact.html" class="btn btn-light">Reserve Now</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Serenity Haven</h3>
+            <p>
+              Where luxury meets tranquility. Experience the ultimate resort and
+              spa destination.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="accommodations.html">Accommodations</a></li>
+              <li><a href="spa.html">Spa & Wellness</a></li>
+              <li><a href="dinning.html">Dining</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li>Behind World Lillies</li>
+              <li>Oluyole, Ibadan</li>
+              <li>Phone: +234 8133888972</li>
+              <li>Email: joyafemije@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe for exclusive offers and updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Serenity Haven Resort & Spa. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      .page-header {
+        position: relative;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        margin-top: 80px;
+      }
+
+      .page-header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(44, 95, 79, 0.8),
+          rgba(139, 115, 85, 0.7)
+        );
+      }
+
+      .page-header-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        color: var(--color-white);
+      }
+
+      .page-header-content h1 {
+        font-family: var(--font-display);
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .page-header-content p {
+        font-size: 1.2rem;
+        opacity: 0.95;
+      }
+
+      .rooms-intro {
+        padding: 80px 20px 40px;
+      }
+
+      .rooms-section {
+        padding: 40px 20px 100px;
+      }
+
+      .rooms-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 2.5rem;
+      }
+
+      .room-card {
+        background: var(--color-white);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition);
+      }
+
+      .room-card:hover {
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-5px);
+      }
+
+      .room-image {
+        position: relative;
+        height: 250px;
+        overflow: hidden;
+      }
+
+      .room-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+      }
+
+      .room-card:hover .room-image img {
+        transform: scale(1.1);
+      }
+
+      .room-badge {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: var(--color-secondary);
+        color: var(--color-dark);
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .room-content {
+        padding: 2rem;
+      }
+
+      .room-content h3 {
+        font-family: var(--font-display);
+        font-size: 1.8rem;
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      .room-size {
+        color: var(--color-text-light);
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .room-description {
+        color: var(--color-text);
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+      }
+
+      .room-amenities {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .room-amenities li {
+        color: var(--color-text-light);
+        font-size: 0.9rem;
+      }
+
+      .room-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.5rem;
+        border-top: 1px solid #e8e6e3;
+      }
+
+      .room-price {
+        display: flex;
+        align-items: baseline;
+        gap: 0.25rem;
+      }
+
+      .price-from {
+        font-size: 0.85rem;
+        color: var(--color-text-light);
+      }
+
+      .price-amount {
+        font-family: var(--font-display);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color-primary);
+      }
+
+      .price-night {
+        font-size: 0.9rem;
+        color: var(--color-text-light);
+      }
+
+      .all-amenities {
+        padding: 100px 20px;
+        background: var(--color-light);
+      }
+
+      .amenities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+      }
+
+      .amenity-item {
+        text-align: center;
+        padding: 2rem;
+        background: var(--color-white);
+        border-radius: 8px;
+        transition: var(--transition);
+      }
+
+      .amenity-item:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .amenity-icon {
+        font-size: 2.5rem;
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      .amenity-item h4 {
+        font-family: var(--font-display);
+        font-size: 1.2rem;
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      .amenity-item p {
+        font-size: 0.9rem;
+        color: var(--color-text-light);
+      }
+
+      @media (max-width: 768px) {
+        .rooms-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .page-header-content h1 {
+          font-size: 2.5rem;
+        }
+
+        .room-amenities {
+          grid-template-columns: 1fr;
+        }
+
+        .room-footer {
+          flex-direction: column;
+          gap: 1rem;
+          align-items: flex-start;
+        }
+      }
+    </style>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Serenity Haven Resort & Spa</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>Serenity Haven</h1>
+          <span>Resort & Spa</span>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="accommodation.html">Accommodations</a></li>
+          <li><a href="spa.html">Spa & Wellness</a></li>
+          <li><a href="dinning.html">Dining</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="btn-book">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section
+      class="page-header"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1549294413-26f195200c16?w=1920&q=80&quot;);
+      "
+    >
+      <div class="page-header-overlay"></div>
+      <div class="page-header-content">
+        <h1>About Serenity Haven</h1>
+        <p>Discover Our Story of Luxury and Excellence</p>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="about-story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-image">
+            <img
+              src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80"
+              alt="Resort History"
+            />
+          </div>
+          <div class="story-content">
+            <span class="section-subtitle">Our Story</span>
+            <h2 class="section-title">A Legacy of Excellence</h2>
+            <div class="section-divider" style="margin-left: 0"></div>
+            <p>
+              Founded in 1995, Serenity Haven Resort & Spa was born from a
+              vision to create a sanctuary where luxury seamlessly blends with
+              nature's tranquility. What began as a small beachfront property
+              has blossomed into an award-winning destination recognized
+              globally for excellence in hospitality.
+            </p>
+            <p>
+              Our founders, inspired by the breathtaking beauty of this coastal
+              paradise, dedicated themselves to preserving the natural
+              environment while creating an oasis of comfort and sophistication.
+              Today, we continue that legacy with unwavering commitment to
+              sustainable luxury and exceptional guest experiences.
+            </p>
+            <p>
+              Every corner of Serenity Haven tells a story of meticulous
+              craftsmanship, attention to detail, and genuine care for our
+              guests' wellbeing. We're not just a resort – we're a home away
+              from home, where memories are made and cherished for a lifetime.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="values-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Our Philosophy</span>
+          <h2 class="section-title">Mission & Values</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="values-grid">
+          <div class="value-card fade-in-on-scroll">
+            <div class="value-icon">🌿</div>
+            <h3>Sustainability</h3>
+            <p>
+              We are committed to environmental stewardship, implementing
+              eco-friendly practices throughout our operations to preserve the
+              natural beauty that surrounds us.
+            </p>
+          </div>
+          <div class="value-card fade-in-on-scroll">
+            <div class="value-icon">❤️</div>
+            <h3>Genuine Care</h3>
+            <p>
+              Every guest is treated like family. We anticipate needs, exceed
+              expectations, and create personalized experiences with authentic
+              warmth and attention.
+            </p>
+          </div>
+          <div class="value-card fade-in-on-scroll">
+            <div class="value-icon">✨</div>
+            <h3>Excellence</h3>
+            <p>
+              We pursue perfection in every detail, from the thread count of our
+              linens to the presentation of our cuisine, ensuring uncompromising
+              quality at every touchpoint.
+            </p>
+          </div>
+          <div class="value-card fade-in-on-scroll">
+            <div class="value-icon">🤝</div>
+            <h3>Community</h3>
+            <p>
+              We believe in giving back, supporting local artisans, employing
+              from the community, and contributing to the wellbeing of our
+              neighbors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Meet The Team</span>
+          <h2 class="section-title">Our Dedicated Professionals</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="team-grid">
+          <div class="team-member fade-in-on-scroll">
+            <div class="team-image">
+              <img
+                src="./images/etana.jpg.jpg"
+                alt="General Manager"
+              />
+            </div>
+            <h3>Michael Sterling</h3>
+            <p class="team-role">General Manager</p>
+            <p class="team-bio">
+              With over 20 years in luxury hospitality, Michael leads our team
+              with vision and dedication to excellence.
+            </p>
+          </div>
+          <div class="team-member fade-in-on-scroll">
+            <div class="team-image">
+              <img
+                src="./images/WhatsApp Image 2026-02-07 at 10.21.30.jpeg"
+                alt="Spa Director"
+              />
+            </div>
+            <h3>Dr. Emmanuel Chukwuebuka</h3>
+            <p class="team-role">Spa & Wellness Director</p>
+            <p class="team-bio">
+              A certified wellness expert, Dr. Chen curates transformative spa
+              experiences that heal body and mind.
+            </p>
+          </div>
+          <div class="team-member fade-in-on-scroll">
+            <div class="team-image">
+              <img
+                src="./images/etanaimg BW.jpg"
+                alt="Executive Chef"
+              />
+            </div>
+            <h3>Chef Antoine Rousseau</h3>
+            <p class="team-role">Joy Etana</p>
+            <p class="team-bio">
+              Michelin-trained, Chef Rousseau brings innovative culinary
+              artistry to every dining experience.
+            </p>
+          </div>
+          <div class="team-member fade-in-on-scroll">
+            <div class="team-image">
+              <img
+                src="./images/WhatsApp Image 2026-02-07 at 15.03.12 (1).jpeg"
+                alt="Guest Relations"
+              />
+            </div>
+            <h3>Hope Afemije</h3>
+            <p class="team-role">Guest Relations Manager</p>
+            <p class="team-bio">
+              Sofia ensures every stay is memorable, orchestrating seamless
+              experiences with warmth and precision.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Recognition</span>
+          <h2 class="section-title">Awards & Accolades</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="awards-grid">
+          <div class="award-item fade-in-on-scroll">
+            <div class="award-year">2024</div>
+            <h3>World's Best Resort Spa</h3>
+            <p>Travel + Leisure Awards</p>
+          </div>
+          <div class="award-item fade-in-on-scroll">
+            <div class="award-year">2023</div>
+            <h3>5-Star Luxury Resort</h3>
+            <p>Forbes Travel Guide</p>
+          </div>
+          <div class="award-item fade-in-on-scroll">
+            <div class="award-year">2023</div>
+            <h3>Best Beach Resort</h3>
+            <p>Conde Nast Traveler</p>
+          </div>
+          <div class="award-item fade-in-on-scroll">
+            <div class="award-year">2025</div>
+            <h3>Sustainable Tourism Award</h3>
+            <p>Green Globe Certification</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Experience the Difference</h2>
+        <p>
+          Join thousands of satisfied guests who have made Serenity Haven their
+          preferred escape
+        </p>
+        <a href="contact.html" class="btn btn-light">Plan Your Visit</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Serenity Haven</h3>
+            <p>
+              Where luxury meets tranquility. Experience the ultimate resort and
+              spa destination.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="accommodation.html">Accommodations</a></li>
+              <li><a href="spa.html">Spa & Wellness</a></li>
+              <li><a href="dinning.html">Dining</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li>123 Paradise Drive</li>
+              <li>Oluyole Extention, Ibadan.</li>
+              <li>Phone: +234 8133888972</li>
+              <li>Email: joyafemije@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe for exclusive offers and updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025Serenity Haven Resort & Spa. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      .page-header {
+        position: relative;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        margin-top: 80px;
+      }
+
+      .page-header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(44, 95, 79, 0.8),
+          rgba(139, 115, 85, 0.7)
+        );
+      }
+
+      .page-header-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        color: var(--color-white);
+      }
+
+      .page-header-content h1 {
+        font-family: var(--font-display);
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .page-header-content p {
+        font-size: 1.2rem;
+        opacity: 0.95;
+      }
+
+      .about-story {
+        padding: 100px 20px;
+      }
+
+      .story-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: center;
+      }
+
+      .story-image img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: var(--shadow-lg);
+      }
+
+      .story-content p {
+        margin-bottom: 1.5rem;
+        line-height: 1.8;
+        color: var(--color-text-light);
+      }
+
+      .values-section {
+        padding: 100px 20px;
+        background: var(--color-light);
+      }
+
+      .values-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+
+      .value-card {
+        padding: 2.5rem;
+        background: var(--color-white);
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition);
+      }
+
+      .value-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .value-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .value-card h3 {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+      }
+
+      .team-section {
+        padding: 100px 20px;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+
+      .team-member {
+        text-align: center;
+      }
+
+      .team-image {
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .team-image img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+      }
+
+      .team-member:hover .team-image img {
+        transform: scale(1.1);
+      }
+
+      .team-member h3 {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      .team-role {
+        color: var(--color-secondary);
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .team-bio {
+        color: var(--color-text-light);
+        line-height: 1.6;
+      }
+
+      .awards-section {
+        padding: 100px 20px;
+        background: var(--color-light);
+      }
+
+      .awards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+
+      .award-item {
+        padding: 2rem;
+        background: var(--color-white);
+        border-left: 4px solid var(--color-secondary);
+        border-radius: 4px;
+      }
+
+      .award-year {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color-secondary);
+        margin-bottom: 1rem;
+      }
+
+      .award-item h3 {
+        font-family: var(--font-display);
+        font-size: 1.3rem;
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      .award-item p {
+        color: var(--color-text-light);
+      }
+
+      @media (max-width: 768px) {
+        .story-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .page-header-content h1 {
+          font-size: 2.5rem;
+        }
+      }
+    </style>
+
+    <script src="script.js"></script>
+  </body>
+</html>

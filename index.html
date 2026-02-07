@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity Haven Resort & Spa - Luxury Escape</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>Serenity Haven</h1>
+          <span>Resort & Spa</span>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="accommodation.html">Accommodations</a></li>
+          <li><a href="spa.html">Spa & Wellness</a></li>
+          <li><a href="dining.html">Dining</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="btn-book">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <img
+        src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=80"
+        alt="Luxury Resort Pool"
+        class="hero-image"
+      />
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-subtitle fade-in-up">Escape to Paradise</span>
+          <h1 class="hero-title fade-in-up">
+            Where Luxury Meets<br />Tranquility
+          </h1>
+          <p class="hero-description fade-in-up">
+            Experience the ultimate retreat at Serenity Haven, where every
+            moment is designed for your relaxation and rejuvenation
+          </p>
+          <div class="hero-buttons fade-in-up">
+            <a href="accommodations.html" class="btn btn-primary"
+              >Explore Rooms</a
+            >
+            <a href="spa.html" class="btn btn-secondary">Discover Spa</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Welcome to Serenity Haven</span>
+          <h2 class="section-title">A Sanctuary of Peace & Luxury</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <p>
+              Nestled between pristine beaches and lush tropical gardens,
+              Serenity Haven Resort & Spa offers an unparalleled escape from the
+              ordinary. Our award-winning resort combines world-class amenities
+              with genuine warmth and hospitality.
+            </p>
+            <p>
+              Whether you seek adventure, relaxation, or a romantic getaway, our
+              dedicated team ensures every detail of your stay exceeds
+              expectations. Discover a place where time slows down and memories
+              are made.
+            </p>
+            <a href="about.html" class="link-arrow">Learn More About Us →</a>
+          </div>
+          <div class="welcome-stats">
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="150">0</h3>
+              <p>Luxury Suites</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="5">0</h3>
+              <p>Star Rating</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="25">0</h3>
+              <p>Spa Treatments</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="3">0</h3>
+              <p>Fine Dining</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <h3>Luxury Accommodations</h3>
+            <p>
+              Exquisitely designed suites and villas with breathtaking ocean or
+              garden views
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3>World-Class Spa</h3>
+            <p>
+              Indulge in holistic treatments and wellness programs tailored to
+              your needs
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3>24/7 Concierge</h3>
+            <p>
+              Personalized service ensuring every wish is fulfilled day and
+              night
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>Prime Location</h3>
+            <p>
+              Beachfront paradise surrounded by natural beauty and local
+              attractions
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3>Gourmet Dining</h3>
+            <p>
+              Award-winning restaurants featuring international and local
+              cuisine
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </div>
+            <h3>Exclusive Activities</h3>
+            <p>Curated experiences from water sports to cultural excursions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="section-header">
+        <span class="section-subtitle">Visual Journey</span>
+        <h2 class="section-title">Experience Serenity Haven</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <img
+            src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80"
+            alt="Luxury Pool"
+          />
+          <div class="gallery-overlay">
+            <h3>Infinity Pool</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&q=80"
+            alt="Spa Treatment"
+          />
+          <div class="gallery-overlay">
+            <h3>Spa Sanctuary</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80"
+            alt="Luxury Suite"
+          />
+          <div class="gallery-overlay">
+            <h3>Ocean View Suite</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80"
+            alt="Fine Dining"
+          />
+          <div class="gallery-overlay">
+            <h3>Gourmet Cuisine</h3>
+          </div>
+        </div>
+        <div class="gallery-item gallery-tall">
+          <img
+            src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=600&q=80"
+            alt="Beach View"
+          />
+          <div class="gallery-overlay">
+            <h3>Private Beach</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Guest Reviews</span>
+          <h2 class="section-title">What Our Guests Say</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              "An absolutely magical experience! The staff went above and beyond
+              to make our honeymoon unforgettable. The spa treatments were
+              divine and the ocean views from our suite were breathtaking."
+            </p>
+            <div class="testimonial-author">
+              <strong>Emily & James</strong>
+              <span>Honeymooners, California</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Serenity Haven exceeded all expectations. The attention to
+              detail, from the welcome drinks to the turndown service, was
+              impeccable. We'll definitely be returning!"
+            </p>
+            <div class="testimonial-author">
+              <strong>Michael Chen</strong>
+              <span>Business Traveler, Singapore</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              "The perfect family vacation! Activities for the kids, relaxation
+              for us, and incredible dining experiences. The resort truly has
+              something for everyone."
+            </p>
+            <div class="testimonial-author">
+              <strong>The Martinez Family</strong>
+              <span>Family Vacation, Mexico</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Experience Paradise?</h2>
+        <p>
+          Book your escape to Serenity Haven and discover a world of luxury and
+          tranquility
+        </p>
+        <a href="contact.html" class="btn btn-light">Reserve Your Stay</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Serenity Haven</h3>
+            <p>
+              Where luxury meets tranquility. Experience the ultimate resort and
+              spa destination.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="accommodations.html">Accommodations</a></li>
+              <li><a href="spa.html">Spa & Wellness</a></li>
+              <li><a href="dinning.html">Dining</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li>Behind World Lillies</li>
+              <li>Oluyole, Ibadan</li>
+              <li>Phone:+234 813388972</li>
+              <li>Email: joyafemije@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe for exclusive offers and updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Serenity Haven Resort & Spa. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
